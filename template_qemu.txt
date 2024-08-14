@@ -1,6 +1,0 @@
-The main target for this document is to provide guidance,a getting started template for developing a basic device in qemu
-for the sake of not confusing things up i am using a device with a PCI protocol which is using MMIO(Memory Mapped Input/Output)
- for comunicating with the Microprocessor.
-
- #########NOTE: THIS DOCUMENT DOESNOT CONTAIN QEMU SCRIPT THAT I HAVE IMPLEMENTED IT WILL BE IN SEPRATE DOCUMENT.###########
- 
