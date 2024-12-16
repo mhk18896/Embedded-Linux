@@ -31,7 +31,7 @@ The goal is to create a seamless pipeline where:
 - Before diving into our workflow, it’s essential to set up the working environment to ensure a seamless and efficient process without any disruptions. The two primary technologies we will be utilizing are:
 - Yocto Project
 - QEMU .
-But Before starting our development process we will first make a seprate directory where we can organise our entire development procedure.
+- But Before starting our development process we will first make a seprate directory where we can organise our entire development procedure.
     ```bash
         mkdir project
          cd project
