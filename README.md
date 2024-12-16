@@ -53,7 +53,7 @@ The goal is to create a seamless pipeline where:
     reducing development and testing time. Additionally, it allows us to test our Linux OS on the hardware emulated by QEMU. 
     QEMU supports a wide range of architectures and boards, including Virt, Raspberry Pi, STM32, and many others.
 
-        ###  Setting up QEMU
+    ###    Setting up QEMU
             ```bash
             # Clone the QEMU source code repository from GitHub into your working directory:
                 git clone https://github.com/qemu/qemu
