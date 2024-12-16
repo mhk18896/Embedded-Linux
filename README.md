@@ -54,11 +54,24 @@ The goal is to create a seamless pipeline where:
     QEMU supports a wide range of architectures and boards, including Virt, Raspberry Pi, STM32, and many others.
 
 ###  Setting up QEMU
-  - For setting up the enviroment of QEMU we will follow the folowing sequence of commands
-    ```bash
-    git clone https://github.com/qemu/qemu #this is local copy of the QEMU source code from github in our working directory
-    #Now as we have to local repository of QEMU now we have to build it source source but before that we have to perform some configurations
-    ./configure --help #here you can easily check which options you can select so that when you invoke 'make' command qemu will import all the important stuff that will be used to emulate the QEMU machine.  
-    ./configure --target-list=arm-softmmu,aarch64-softmmu --enable-slirp #all the softmmu option are used for system level emulation as we are doing system level emulation and --enable-slirp is enabling the library as we are going to add ssh support for our machine which will be used for ssh connection.
-    #after setting the configuration invoke command:
-    make 
+  ```bash
+      # Clone the QEMU source code repository from GitHub into your working directory:
+     git clone https://github.com/qemu/qemu
+
+    # With the local copy of the QEMU repository ready, we need to build it from source. 
+    # Before building, explore the available configuration options using:
+    ./configure --help 
+
+    # This command lists all the options you can use when invoking 'make', allowing QEMU 
+    # to include the necessary components for emulating the desired machine.
+
+    # Next, configure the build with the following command:
+    ./configure --target-list=arm-softmmu,aarch64-softmmu --enable-slirp
+
+    # Explanation:
+    # The 'arm-softmmu' and 'aarch64-softmmu' options are for system-level emulation.
+    #'--enable-slirp' enables the SLIRP library, which is required for SSH support, 
+    #allowing an SSH connection to the emulated machine.
+
+    # Finally, build QEMU using:
+    make
