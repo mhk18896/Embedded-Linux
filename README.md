@@ -3,7 +3,7 @@
 <p align="center">
   <img src="./QEMU-Logo.wine.png" width="200" style="display: inline-block; margin-right: 10px;">
   <img src="./Yocto-Linux.png" width="200" style="display: inline-block;">
-  <img src="./polito.png" width="200" style="display: inline-block;">
+  <img src="./polito.jpg" width="200" style="display: inline-block;">
 </p>
 
 
