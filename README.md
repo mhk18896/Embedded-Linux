@@ -34,8 +34,7 @@ The goal is to create a seamless pipeline where:
 - QEMU
 
  But Before starting our development process we will first make a seprate directory where we can organise our entire development procedure.
-
-    ```bash
+     ```bash
       mkdir project
       cd project
 
@@ -48,7 +47,7 @@ The goal is to create a seamless pipeline where:
   -  The Yocto Project offers a wide range of capabilities, which are thoroughly documented in the Yocto Project manual. 
      The manual provides comprehensive and well-structured guidance. However, our focus here will
      be limited to aspects specifically related to our project.
-    ```bash
+     ```bash
        git clone https://github.com/yoctoproject/poky 
 ##  QEMU 
   - The main idea behind QEMU is to emulate virtual hardware for various architectures (e.g., ARM, RISC-V) different from the host architecture.
