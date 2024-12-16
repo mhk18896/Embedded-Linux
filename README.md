@@ -75,7 +75,7 @@ The goal is to create a seamless pipeline where:
 
      # Finally, build QEMU using:
      make
-- After the configuring and building the QEMU from source we will write the script that will invoke QEMU and emulate our machine
-  you can find the script in the repository with the name of:
-    ```bash 
-      qemu_s.sh
+-  After the configuring and building the QEMU from source we will write the script that will invoke QEMU and emulate our machine
+   you can find the script in the repository with the name of:
+     ```bash 
+       qemu_s.sh
