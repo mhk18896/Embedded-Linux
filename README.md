@@ -1,9 +1,9 @@
 # Development of Image Accelerator and Interfacing with Linux Kernel Module in a Custom Yocto Image
 
 <p align="center">
-  <img src="./QEMU-Logo.wine.png" width="200" style="display: inline-block; margin-right: 10px;">
-  <img src="./Yocto-Linux.png" width="200" style="display: inline-block;">
-  <img src="./polito.jpg" width="200" style="display: inline-block;">
+  <img src="/images/QEMU-Logo.wine.png" width="200" style="display: inline-block; margin-right: 10px;">
+  <img src="/images/Yocto-Linux.png" width="200" style="display: inline-block;">
+  <img src="/images/polito.jpg" width="200" style="display: inline-block;">
 </p>
 
 
