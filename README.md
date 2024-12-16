@@ -34,9 +34,9 @@ The goal is to create a seamless pipeline where:
 - QEMU
 
  But Before starting our development process we will first make a seprate directory where we can organise our entire development procedure.
-     ```bash
-         mkdir project
-        cd project
+    ```bash
+        mkdir project
+         cd project
 
   ## Yocto Project
   - The Yocto Project is designed to enable the development of a Linux OS customized for specific embedded devices.
