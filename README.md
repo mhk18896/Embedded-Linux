@@ -51,7 +51,7 @@ The goal is to create a seamless pipeline where:
       ```bash
       git clone https://github.com/yoctoproject/poky 
 ##  QEMU 
-    The main idea behind QEMU is to emulate virtual hardware for various architectures (e.g., ARM, RISC-V) different from the host architecture.
+  - The main idea behind QEMU is to emulate virtual hardware for various architectures (e.g., ARM, RISC-V) different from the host architecture.
     For example, you can emulate an ARM processor along with its entire board on an x86 architecture. The advantage of using QEMU is that it enables quick prototyping of hardware behavior,
     reducing development and testing time. Additionally, it allows us to test our Linux OS on the hardware emulated by QEMU. 
     QEMU supports a wide range of architectures and boards, including Virt, Raspberry Pi, STM32, and many others.
