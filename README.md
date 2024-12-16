@@ -54,7 +54,7 @@ The goal is to create a seamless pipeline where:
     QEMU supports a wide range of architectures and boards, including Virt, Raspberry Pi, STM32, and many others.
 
     ###    Setting up QEMU
-        ```bash
+    ```bash
             # Clone the QEMU source code repository from GitHub into your working directory:
                 git clone https://github.com/qemu/qemu
             # With the local copy of the QEMU repository ready, we need to build it from source. 
