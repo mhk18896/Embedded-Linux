@@ -36,12 +36,12 @@ The goal is to create a seamless pipeline where:
         mkdir project
          cd project
 
-  ## Yocto Project
+## Yocto Project
   - The Yocto Project is designed to enable the development of a Linux OS customized for specific embedded devices.
     It provides powerful tools that not only allow us to tailor Linux to meet our specific requirements but also support
     and streamline the entire development process.
 
-    ### Setting up Yocto Project 
+   ### Setting up Yocto Project 
   -  The Yocto Project offers a wide range of capabilities, which are thoroughly documented in the Yocto Project manual. 
      The manual provides comprehensive and well-structured guidance. However, our focus here will
      be limited to aspects specifically related to our project.
