@@ -53,28 +53,25 @@ The goal is to create a seamless pipeline where:
     reducing development and testing time. Additionally, it allows us to test our Linux OS on the hardware emulated by QEMU. 
     QEMU supports a wide range of architectures and boards, including Virt, Raspberry Pi, STM32, and many others.
 
-   ###  Setting up QEMU
-    ```bash
-      # Clone the QEMU source code repository from GitHub into your working directory:
-      git clone https://github.com/qemu/qemu
+        ###  Setting up QEMU
+            ```bash
+            # Clone the QEMU source code repository from GitHub into your working directory:
+                git clone https://github.com/qemu/qemu
 
-     # With the local copy of the QEMU repository ready, we need to build it from source. 
-     # Before building, explore the available configuration options using:
-     ./configure --help 
+            # With the local copy of the QEMU repository ready, we need to build it from source. 
+            # Before building, explore the available configuration options using:
+            ./configure --help 
+        # This command lists all the options you can use when invoking 'make', allowing QEMU 
+            # to include the necessary components for emulating the desired machine.
 
-     # This command lists all the options you can use when invoking 'make', allowing QEMU 
-     # to include the necessary components for emulating the desired machine.
-
-     # Next, configure the build with the following command:
-     ./configure --target-list=arm-softmmu,aarch64-softmmu --enable-slirp
-
-     # Explanation:
-     # The 'arm-softmmu' and 'aarch64-softmmu' options are for system-level emulation.
-     #'--enable-slirp' enables the SLIRP library, which is required for SSH support, 
-     #allowing an SSH connection to the emulated machine.
-
-     # Finally, build QEMU using:
-     make 
+        # Next, configure the build with the following command:
+            ./configure --target-list=arm-softmmu,aarch64-softmmu --enable-slirp
+         # Explanation:
+             # The 'arm-softmmu' and 'aarch64-softmmu' options are for system-level emulation.
+             #'--enable-slirp' enables the SLIRP library, which is required for SSH support, 
+             #allowing an SSH connection to the emulated machine.
+         # Finally, build QEMU using:
+             make 
 
 -  After the configuring and building the QEMU from source we will write the script that will invoke QEMU and emulate our machine
    you can find the script in the repository with the name of:
