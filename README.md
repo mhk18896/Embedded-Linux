@@ -55,8 +55,5 @@ The goal is to create a seamless pipeline where:
 
 ###  Setting up QEMU
   - For setting up the enviroment of QEMU we will follow the folowing sequence of commands
-        
-  - The board that we are focusing on is 'virt' which is a board that is best for prototyping and supports ARM processor and also we can connect
-      several types of devices
-      Board:'virt'
-      CPU
+    ```bash
+    git clone https://github.com/qemu/qemu #this is local copy of the QEMU source code from github in our working directory
