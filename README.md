@@ -36,8 +36,8 @@ The goal is to create a seamless pipeline where:
  But Before starting our development process we will first make a seprate directory where we can organise our entire development procedure.
 
       ```bash
-      'mkdir project'
-      'cd project'
+      mkdir project
+      cd project
 
   ## Yocto Project
   - The Yocto Project is designed to enable the development of a Linux OS customized for specific embedded devices.
@@ -55,7 +55,8 @@ The goal is to create a seamless pipeline where:
     For example, you can emulate an ARM processor along with its entire board on an x86 architecture. The advantage of using QEMU is that it enables quick prototyping of hardware behavior,
     reducing development and testing time. Additionally, it allows us to test our Linux OS on the hardware emulated by QEMU. 
     QEMU supports a wide range of architectures and boards, including Virt, Raspberry Pi, STM32, and many others.
-    ### Setting up QEMU
+
+###  Setting up QEMU
         For setting up the enviroment of QEMU we will follow the folowing sequence of commands
         ```bash
 
