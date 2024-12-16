@@ -1,12 +1,9 @@
 # Development of Image Accelerator and Interfacing with Linux Kernel Module in a Custom Yocto Image
 
 <p align="center">
-  <img src="/home/m-hamza-khan/Desktop/project_os/git/group4/
-QEMU-Logo.wine.png" width="300" style="display: inline-block; margin-right: 10px;">
-  <img src="/home/m-hamza-khan/Desktop/project_os/git/group4/
-Yocto-Linux.png" width="300" style="display: inline-block;">
-  <img src="/home/m-hamza-khan/Desktop/project_os/git/group4/
-image220230421161333!Logo_PoliTo_dal_2021_blu.png" width="300" style="display: inline-block;">
+  <img src="./QEMU-Logo.wine.png" width="300" style="display: inline-block; margin-right: 10px;">
+  <img src="./Yocto-Linux.png" width="300" style="display: inline-block;">
+  <img src="./image220230421161333!Logo_PoliTo_dal_2021_blu.png" width="300" style="display: inline-block;">
 </p>
 
 
