@@ -45,11 +45,11 @@ The goal is to create a seamless pipeline where:
     and streamline the entire development process.
 
     ### Setting up Yocto Project 
-       The Yocto Project offers a wide range of capabilities, which are thoroughly documented in the Yocto Project manual. 
-       The manual provides comprehensive and well-structured guidance. However, our focus here will
-       be limited to aspects specifically related to our project.
-      ```bash
-      git clone https://github.com/yoctoproject/poky 
+  -  The Yocto Project offers a wide range of capabilities, which are thoroughly documented in the Yocto Project manual. 
+     The manual provides comprehensive and well-structured guidance. However, our focus here will
+     be limited to aspects specifically related to our project.
+     ```bash
+       git clone https://github.com/yoctoproject/poky 
 ##  QEMU 
   - The main idea behind QEMU is to emulate virtual hardware for various architectures (e.g., ARM, RISC-V) different from the host architecture.
     For example, you can emulate an ARM processor along with its entire board on an x86 architecture. The advantage of using QEMU is that it enables quick prototyping of hardware behavior,
@@ -57,11 +57,9 @@ The goal is to create a seamless pipeline where:
     QEMU supports a wide range of architectures and boards, including Virt, Raspberry Pi, STM32, and many others.
 
 ###  Setting up QEMU
-        For setting up the enviroment of QEMU we will follow the folowing sequence of commands
+    - For setting up the enviroment of QEMU we will follow the folowing sequence of commands
         ```bash
-
-        
-        The board that we are focusing on is 'virt' which is a board that is best for prototyping and supports ARM processor and also we can connect
-        several types of devices
-        Board:'virt'
-        CPU
+    - The board that we are focusing on is 'virt' which is a board that is best for prototyping and supports ARM processor and also we can connect
+      several types of devices
+      Board:'virt'
+      CPU
