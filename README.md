@@ -25,3 +25,19 @@ The goal is to create a seamless pipeline where:
 - Linux Kernel Module (LKM): Serves as the interface between the custom hardware and the Linux operating system.
 - Yocto Project: Used to build a minimal and tailored Linux image containing the necessary drivers and applications.
 - Userspace Application: Acts as the front-end for sending image data to the hardware and displaying the processed output.
+
+## Workflow
+
+- Before diving into our workflow, it’s essential to set up the working environment to ensure a seamless and efficient process without any disruptions. The two primary technologies we will be utilizing are:
+
+- Yocto Project
+- QEMU
+  ##Yocto Project
+  - The Yocto Project is designed to enable the development of a Linux OS customized for specific embedded devices.
+    It provides powerful tools that not only allow us to tailor Linux to meet our specific requirements but also support
+    and streamline the entire development process.
+
+    ### Setting up Yocto Project 
+       The Yocto Project offers a wide range of capabilities, which are thoroughly documented in the Yocto Project manual. 
+       The manual provides comprehensive and well-structured guidance. However, our focus here will
+       be limited to aspects specifically related to our project.
