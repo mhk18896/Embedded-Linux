@@ -34,6 +34,7 @@ The goal is to create a seamless pipeline where:
 - QEMU
 
  But Before starting our development process we will first make a seprate directory where we can organise our entire development procedure
+      
       'mkdir project'
       'cd project'
 
@@ -48,6 +49,7 @@ The goal is to create a seamless pipeline where:
        be limited to aspects specifically related to our project.
       ```bash
       git clone https://github.com/yoctoproject/poky
+      
 ##  QEMU 
     The main idea behind QEMU is to emulate virtual hardware for various architectures (e.g., ARM, RISC-V) different from the host architecture.
     For example, you can emulate an ARM processor along with its entire board on an x86 architecture. The advantage of using QEMU is that it enables quick prototyping of hardware behavior,
