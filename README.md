@@ -57,3 +57,11 @@ The goal is to create a seamless pipeline where:
   - For setting up the enviroment of QEMU we will follow the folowing sequence of commands
     ```bash
     git clone https://github.com/qemu/qemu #this is local copy of the QEMU source code from github in our working directory
+    #Now as we have to local repository of QEMU now we have to build it source source but before that we have to perform some configurations
+    ./configure --help #here you can easily check which options you can select so that when you invoke 'make' command qemu will import all
+                       the important stuff that will be used to emulate the QEMU machine.  
+    ./configure --target-list=arm-softmmu,aarch64-softmmu --enable-slirp #all the softmmu option are used for system level emulation as we 
+            are doing system level emulation and --enable-slirp is enabling the library as we are going to add ssh support for our machine
+            which will be used for ssh connection.
+    #after setting the configuration invoke command:
+    make 
