@@ -95,7 +95,7 @@ Total memory footprint is about 128 bytes.The internal memory is divided into 5 
 
 <p align="center">
   <img src="/images/Screenshot from 2025-02-17 18-22-08.png" width="200" style="display: inline-block;">
-  <img src="/images/Screenshot from 2025-02-17 18-22-40.png" width="200" style="display: inline-block;">
+  <img src="/images/Screenshot from 2025-02-17 18-22-40.png" width="100" style="display: inline-block;">
 
 </p>
 
