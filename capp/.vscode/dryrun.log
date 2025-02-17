@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/m-hamza-khan/Desktop/project_os/build-arm32/meta-custom-layer/recipes-usrspc/capp'
+make: Leaving directory '/home/m-hamza-khan/Desktop/project_os/build-arm32/meta-custom-layer/recipes-usrspc/capp'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
