@@ -21,6 +21,17 @@ A **Linux Kernel Module (LKM)** is a piece of software that helps in extending t
 - They enable modularity means that we can **Load/unload drivers dynamicaly**.
 - They provide critical functionalities like **device drivers, network drivers,a nd system call extensions**.
 
+  
+Since our focus is **device drivers**, we will mainly discuss:
+
+- **Interfacing with hardware**
+- **Acessing memory regions**
+- **Communicating with user-space applications**
+
+---
+
+
+
 
 Linux Kernel Module(LKM) is a piece of software which is helping the kernel to extend it's functionality,adn can make kernel functionality modular.
 The LKM can provide lot's of capabilites such as: network driver,device drivers etc.We will focus on Device Drivers as they are our main interest right now.
