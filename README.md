@@ -16,12 +16,13 @@ The LKM can provide lot's of capabilites such as: network driver,device drivers 
 Inorder to achieve our goal we have to make some arrangments,such as LKM can not run alone as we discussed earliar indeed they are  software component 
 but they our run and managed by a Linux Operating System,Also we need a user space application to access that LKM.Device Driver provides a file like interface
 of the memory regions of the device,Hence we need a device too.
+
 Our project is divided into two major components:
- -hardware:We are modeling a hardware and simulating that hardware with an cortex a-15 32bit processor using QEMU
- -software 
+  -hardware:We are modeling a hardware and simulating that hardware with an cortex a-15 32bit processor using QEMU
+  -software 
 let's discuss each of these part's breifly
 
-###Hardware
+  ###Hardware
 
 
 
