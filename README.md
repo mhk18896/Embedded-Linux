@@ -51,9 +51,9 @@ The software tools that we are using to realize our goals are:
 - Yocto Project
 - QEMU
 
-these two technologies have a learning curve but worth it.As this tutorial donot cover the 
-lerning and setting up these two technologies ,i will provide some the refrences at the end of
-tutorial so that anyone who want's to follow has a starting point.
+  these two technologies have a learning curve but worth it.As this tutorial donot cover the 
+  lerning and setting up these two technologies ,i will provide some the refrences at the end of
+  tutorial so that anyone who want's to follow has a starting point.
 ---
 
 
