@@ -23,7 +23,7 @@ Our project is divided into two major components:
 -software 
 let's discuss each of these part's breifly
 
-  ###Hardware
+##Hardware
 
 
 
