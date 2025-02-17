@@ -66,7 +66,7 @@ The software tools that we are using to realize our goals are:
 The idea of our accelarator is that it takes two matrices a 8x8 matrix and 3x3 kernel matrice apply convoloution agorithim and calculates a output matrice which is of 6x6 size
 
 <p align="center">
-  <img src=2dconv-84a92b2e7cce6f31ad9fba1e57841198.gif"/images/" width="200" style="display: inline-block;">
+  <img src="/images/2dconv-84a92b2e7cce6f31ad9fba1e57841198.gif" width="200" style="display: inline-block;">
 </p>
 
 
