@@ -30,7 +30,13 @@ Since our focus is **device drivers**, we will mainly discuss:
 
 ---
 
+## Project Components
 
+This project is divided in to two major parts:
+### 1. Hardware
+- We wil design a model of accelarator and simulate it using QEMU
+- We will simualte an already avaliable board available in a large repository of QEMU hardware
+   emulation which will act as an main computing platform.
 
 
 Linux Kernel Module(LKM) is a piece of software which is helping the kernel to extend it's functionality,adn can make kernel functionality modular.
