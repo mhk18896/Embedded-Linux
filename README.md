@@ -103,6 +103,13 @@ Total memory footprint is about 128 bytes.The internal memory is divided into 5 
 ---
 
 ## Refrences
+Here are some of the links that i used to do my work on this project
+- (https://github.com/qemu)
+- (http://www.youtube.com/@TheYoctoProject)
+- (https://www.qemu.org/docs/master/index.html)
+- (https://github.com/Johannes4Linux/pci-echodev)
+- (https://www.yoctoproject.org/)
+
 
 
 
