@@ -40,7 +40,7 @@ This project is divided in to two major parts:
 
 ### 2. software
 - We will be developing an entire Linux Distribution from the scratch using Yocto project which will 
-  be tailored to only our hardware
+  be tailored to only our hardware requirements
 - We will develop Linux Kernel Module for our accelarator
 - We will write a userspace application for using our hardware via Linux Kernel Module(LKM)
 
@@ -53,13 +53,19 @@ The software tools that we are using to realize our goals are:
 
   these two technologies have a learning curve but worth it.As this tutorial donot cover the 
   lerning and setting up these two technologies ,i will provide some the refrences at the end of
-  tutorial so that anyone who want's to follow has a starting point.
+  the tutorial so that anyone who want's to follow has a starting point.
 ---
 
-
-
 ## Hardware
- In hardware emulation 
+ The hardware implementations has three dsitinct steps:
+ - Write a device model which compliant with QEMU subsytem
+ - Rebuild QEMU so that device becomes the part of the QEMU substem 
+ - Write a Bash script that will not only include that new device model but also the entire environment of our computing platform
+
+### Accelarator
+#### second
+
+
 
 
 
