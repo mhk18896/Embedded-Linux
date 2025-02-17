@@ -59,13 +59,15 @@ The software tools that we are using to realize our goals are:
 ## Hardware
  The hardware implementations has three dsitinct steps:
  - Write a device model which compliant with QEMU subsytem
- - Rebuild QEMU so that device becomes the part of the QEMU substem 
  - Write a Bash script that will not only include that new device model but also the entire environment of our computing platform
 
 ### Accelarator
-#### second
+#### Idea
+The idea of our accelarator is that it takes two matrices a 8x8 matrix and 3x3 kernel matrice apply convoloution agorithim and calculates a output matrice which is of 6x6 size
 
-
+<p align="center">
+  <img src=2dconv-84a92b2e7cce6f31ad9fba1e57841198.gif"/images/" width="200" style="display: inline-block;">
+</p>
 
 
 
