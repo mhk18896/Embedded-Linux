@@ -76,3 +76,5 @@ The goal is to create a seamless pipeline where:
    you can find the script in the repository with the name of:
      ```bash 
        qemu_s.sh
+ ### Setting up the hardware
+- We are using 
