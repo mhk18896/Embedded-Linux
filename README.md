@@ -11,7 +11,7 @@
 ## Project Overview
 
 <p align="center">
-  <img src="/images/project_over.jpg" width="200" style="display: inline-block; margin-right: 10px;">
+  <img src="/images/project_over.jpg" width="250" style="display: inline-block; margin-right: 10px;">
 </p>
 
 
