@@ -38,6 +38,36 @@ This project is divided in to two major parts:
 - We will simualte an already avaliable board available in a large repository of QEMU hardware
    emulation which will act as an main computing platform.
 
+### 2. software
+- We will be developing an entire Linux Distribution from the scratch using Yocto project which will 
+  be tailored to only our hardware
+- We will develop Linux Kernel Module for our accelarator
+- We will write a userspace application for using our hardware via Linux Kernel Module(LKM)
+
+---
+## Tools
+The software tools that we are using to realize our goals are:
+
+- Yocto Project
+- QEMU
+
+these two technologies have a learning curve but worth it.As this tutorial donot cover the 
+lerning and setting up these two technologies ,i will provide some the refrences at the end of
+tutorial so that anyone who want's to follow has a starting point.
+---
+
+
+
+## Hardware
+ In hardware emulation 
+
+
+
+
+
+
+
+
 
 Linux Kernel Module(LKM) is a piece of software which is helping the kernel to extend it's functionality,adn can make kernel functionality modular.
 The LKM can provide lot's of capabilites such as: network driver,device drivers etc.We will focus on Device Drivers as they are our main interest right now.
