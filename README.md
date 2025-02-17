@@ -71,7 +71,7 @@ element wise multiplication,and summing the results.Thsi computation produces a 
 output matrix representing the convoloution sum of a 3x3 region of the input matrix.
 The process of convoloution is normaly used in iamge processing,edge detection and feature extraction,making the accelarator suitable
 for high speed matri computation
-<p align="right">
+<p align="center">
   <img src="/images/2dconv-84a92b2e7cce6f31ad9fba1e57841198.gif" width="200" style="display: inline-block;">
 </p>
 
@@ -82,7 +82,22 @@ for high speed matri computation
 - PCI communication interface
 
 #### Archietecture Overview
+Accelarator archietecture consist of:
+- Convoloution Logic CORE performs convoloution opearation
+- Hardware internal Registers
+##### Memory Layout
+Total memory footprint is about 128 bytes.The internal memory is divided into 5 regions:
+- Kernel:3x3=9bytes
+- Image:8x8=64bytes
+- Result:6x6=36bytes
+- CSR:1byte
+- Reserved: 18bytes
 
+<p align="center">
+  <img src="/images/Screenshot from 2025-02-17 18-22-08.png" width="200" style="display: inline-block;">
+  <img src="/images/Screenshot from 2025-02-17 18-22-40.png" width="200" style="display: inline-block;">
+
+</p>
 
 ---
 
