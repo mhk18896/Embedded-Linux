@@ -112,8 +112,15 @@ I have written a bash script which you can  find in the repository here [QEMU Ba
 
 ---
 ## Software
-In this section we will talk about  
-
+In this section we will talk about the software stack that we have developed to access our hardware resources.
+There are three distinct steps that we have to follow:
+- Develop a Linux Operating System using yoctoproject
+- Develop a kernel module and userspace application 
+- Cross Compile the kernel module and userspace application for that particular kernel using the yoctoproject
+### Development Flow
+To develop all the above wether it is Linux OS,Kernel Module,UserSpace applicaiton the yoctoproject is a onstop shop.
+i have uploaded my [KernelModule](lmmodule) and [UserSpace application](capp) files with thier respective yoctoproject configuration files which can also gives you an Idea how 
+yoctoproject works.I am not explaining the kernel module and userspace application here because the code that i have uploaded is self explanatory and has all the explanation there.  
 
 
 
