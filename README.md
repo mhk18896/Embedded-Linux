@@ -63,14 +63,28 @@ The software tools that we are using to realize our goals are:
 
 ### Accelarator
 #### Idea
-The idea of our accelarator is that it takes two matrices a 8x8 matrix and 3x3 kernel matrice apply convoloution agorithim and calculates a output matrice which is of 6x6 size
-
-<p align="center">
+Our hardware is designed to perform convoloution operation on matrices:
+- An 8x8 input matrix (which is reresenting a image or any value)
+- An 3x3 kernel matrix(which is representing a filter)
+The accelarator applies convoloution operation by slinding kernel matrix over the input matrix,performing
+element wise multiplication,and summing the results.Thsi computation produces a 6x6 output matrix,where each element in the 
+output matrix representing the convoloution sum of a 3x3 region of the input matrix.
+The process of convoloution is normaly used in iamge processing,edge detection and feature extraction,making the accelarator suitable
+for high speed matri computation
+<p align="right">
   <img src="/images/2dconv-84a92b2e7cce6f31ad9fba1e57841198.gif" width="200" style="display: inline-block;">
 </p>
 
+#### Features
+- 128 bytes of memory
+- Supports unsigned 8bit data type only
+- 8bit CSR(Control and Status Register)
+- PCI communication interface
+
+#### Archietecture Overview
 
 
+---
 
 
 
