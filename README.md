@@ -11,6 +11,17 @@
 ## Project Overview
 The main goal is to develop a Custom Linux Kernel Module for a Custom hardware model .But the flow is not as structured and there are alot of tutorials online
 some of them,completly wrong,confusing or incomplete.We don't brag to be the best but atleast we will try to be as clear as possible.
+
+## What is Linux Kernel Module(LKM)?
+A **Linux Kernel Module (LKM)** is a piece of software that helps in extending the ""Linux kernel's functionality** without modifying the kernel itself the modular approach helps the kernal to add and remove the fetures dynamicaly.
+
+### Why use LKM's?
+
+- They allow to extend the kernel functionality without recompiling the entire kernel
+- They enable modularity means that we can **Load/unload drivers dynamicaly**.
+- They provide critical functionalities like **device drivers, network drivers,a nd system call extensions**.
+
+
 Linux Kernel Module(LKM) is a piece of software which is helping the kernel to extend it's functionality,adn can make kernel functionality modular.
 The LKM can provide lot's of capabilites such as: network driver,device drivers etc.We will focus on Device Drivers as they are our main interest right now.
 Inorder to achieve our goal we have to make some arrangments,such as LKM can not run alone as we discussed earliar indeed they are  software component 
