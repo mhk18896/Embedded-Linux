@@ -73,6 +73,7 @@ The process of convoloution is normaly used in iamge processing,edge detection a
 for high speed matri computation
 <p align="center">
   <img src="/images/2dconv-84a92b2e7cce6f31ad9fba1e57841198.gif" width="200" style="display: inline-block;">
+  <img src="/images/Screenshot from 2024-12-16 21-04-02.png" width="200" style="display: inline-block;">
 </p>
 
 #### Features
@@ -101,6 +102,7 @@ Total memory footprint is about 128 bytes.The internal memory is divided into 5 
 
 ---
 
+## Refrences
 
 
 
