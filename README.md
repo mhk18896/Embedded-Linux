@@ -19,8 +19,8 @@ of the memory regions of the device,Hence we need a device too.
 
 Our project is divided into two major components:
 
-  -hardware:We are modeling a hardware and simulating that hardware with an cortex a-15 32bit processor using QEMU
-  -software 
+-hardware:We are modeling a hardware and simulating that hardware with an cortex a-15 32bit processor using QEMU
+-software 
 let's discuss each of these part's breifly
 
   ###Hardware
