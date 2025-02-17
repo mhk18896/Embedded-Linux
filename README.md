@@ -1,4 +1,4 @@
-# Development of Image Accelerator and Interfacing with Linux Kernel Module in a Custom Yocto Image
+# Development of of custome Linux Kernel Module for a custom hardware model
 
 <p align="center">
   <img src="/images/QEMU-Logo.wine.png" width="200" style="display: inline-block; margin-right: 10px;">
@@ -9,15 +9,30 @@
 
 
 ## Project Overview
-This project involves developing a custom hardware image accelerator and integrating it into a QEMU virtual board environment. The hardware will be interfaced with a Linux Kernel Module (LKM) and run within
- a custom-built image generated using the Yocto Project.
+The main goal is to develop a Custom Linux Kernel Module for a Custom hardware model .But the flow is not as structured and there are alot of tutorials online
+some of them,completly wrong,confusing or incomplete.We don't brag to be the best but atleast we will try to be as clear as possible.
+Linux Kernel Module(LKM) is a piece of software which is helping the kernel to extend it's functionality,adn can make kernel functionality modular.
+The LKM can provide lot's of capabilites such as: network driver,device drivers etc.We will focus on Device Drivers as they are our main interest right now.
+Inorder to achieve our goal we have to make some arrangments,such as LKM can not run alone as we discussed earliar indeed they are  software component 
+but they our run and managed by a Linux Operating System,Also we need a user space application to access that LKM.Device Driver provides a file like interface
+of the memory regions of the device,Hence we need a device too.
+Our project is divided into two major components:
+ -hardware:We are modeling a hardware and simulating that hardware with an cortex a-15 32bit processor using QEMU
+ -software 
+let's discuss each of these part's breifly
+
+###Hardware
+
+
+
+
 
 ## Objective
 The goal is to create a seamless pipeline where:
 
 - The userspace application interacts with the virtual hardware.
-- Data is sent from the userspace application to the image accelerator for processing.
-- The processed image data is sent back to the userspace application for display or further use.
+- Data is sent from the userspace application to the accelerator for processing.
+- The processed  data is sent back to the userspace application for display or further use.
 
 ## Key Components
 - Custom Hardware: A virtual hardware accelerator for image processing.
