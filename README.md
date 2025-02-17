@@ -101,8 +101,9 @@ Total memory footprint is about 128 bytes.The internal memory is divided into 5 
 </p>
 
 #### QEMU Script
-  We have to write a bash script for running QEMU and also include our hardware model so that we can integrate our hardware model with emualted system.
-  I have written a bash script which you can  find in the repository here [QEMU Bash Script](qemu_32.sh).
+We have to write a bash script for running QEMU and also include our hardware model so that we can integrate our hardware model with emualted system.
+I have written a bash script which you can  find in the repository here [QEMU Bash Script](qemu_32.sh).
+
 ---
 
 
