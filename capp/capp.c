@@ -78,7 +78,7 @@ void kernel_sent(uint8_t *ptr)
     int i,j,index;
     uint8_t kern[3][3]={
         {1,1,1},
-        {1,10,1},
+        {1,1,1},
         {1,1,1}
     };
     printf("Sending the kernel data\n");
