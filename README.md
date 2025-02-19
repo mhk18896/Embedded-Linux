@@ -120,7 +120,7 @@ There are three distinct steps that we have to follow:
 - Cross Compile the kernel module and userspace application for that particular kernel using the yoctoproject
 ### Development Flow
 To develop all the above software stack either it is Linux OS,Kernel Module or UserSpace applicaiton the yoctoproject is a one stop shop.
-i have uploaded my [KernelModule](lmmodule) and [UserSpace application](capp) files with thier respective yoctoproject configuration files which can also gives you an Idea how 
+I have uploaded my [KernelModule](lmmodule) and [UserSpace application](capp) files with thier respective yoctoproject configuration files which can also gives you an Idea how 
 yoctoproject works.I am not explaining the kernel module and userspace application here because the code that i have uploaded is self explanatory and has all the explanation there.  
 
 ---
