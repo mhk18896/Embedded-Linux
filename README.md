@@ -22,7 +22,6 @@ some of them,completly wrong,confusing or incomplete.We don't brag to be the bes
 A **Linux Kernel Module (LKM)** is a piece of software that helps in extending the ""Linux kernel's functionality** without modifying the kernel itself the modular approach helps the kernal to add and remove the fetures dynamicaly.
 
 ### Why use LKM's?
-
 - They allow to extend the kernel functionality without recompiling the entire kernel
 - They enable modularity means that we can **Load/unload drivers dynamicaly**.
 - They provide critical functionalities like **device drivers, network drivers,a nd system call extensions**.
@@ -133,14 +132,3 @@ Here are some of the links that i used to do my work on this project
 - (https://github.com/Johannes4Linux/pci-echodev)
 - (https://www.yoctoproject.org/)
 
-
-
-
-
-
-
-**''I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games.
-Twenty-six times I’ve been trusted to take the game-winning shot and missed.
-I’ve failed over and over and over again in my life. And that is why I succeed.''**
-
-**Michael Jordan**
